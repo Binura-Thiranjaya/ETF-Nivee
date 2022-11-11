@@ -34,7 +34,7 @@ app.get('/movies', (req, res) => {
 );
 
 // • Find a Movie by MID
-app.get('/movies/:id', (req, res) => {
+app.get('/movies/mid/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const movie = fakeData.Movie.find(movie => movie.MID === id);
     res.send(movie);

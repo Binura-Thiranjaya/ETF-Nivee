@@ -17,13 +17,13 @@ export default function HomePage() {
                         <a className="nav-link active" aria-current="page" href="./HomePage.jsx">Home</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="./Page1.jsx">Page 1</a>
+                    <a className="nav-link" href="./Page1">Page 1</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="./Page2.jsx">Page 2</a>
+                    <a className="nav-link" href="./Page2">Page 2</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="./Page3.jsx">Page 3</a>
+                    <a className="nav-link" href="./Page3">Page 3</a>
                     </li>
                 </ul>
                 </div>
